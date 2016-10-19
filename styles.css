@@ -1,1 +1,103 @@
 /* Styles for the Advanced Markup assignment. */
+
+html{
+    background: rgba(234, 234, 235, 1);
+
+}
+
+h1{
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+
+header{
+  background: rgba(207, 179, 179, 1);
+}
+
+.top-nav li{
+    display: inline;
+/*   border: 1px solid goldenrod; */
+}
+
+#sidebar{
+    float: right;  
+    border: 5px dashed goldenrod;
+    border-radius: 10px;
+    width: 15%;
+    margin-left: 10px;
+    background: rgba(137, 138, 158, 1);
+}
+
+#sidebar dt:nth-child(even){
+    margin-left: 10px;
+}
+
+#sidebar dt:nth-child(odd){
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.bio-photo{
+    float: left;
+    width: 15%;
+    border: 10px solid lightgray;
+    border-radius: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background: rgba(230, 232, 200, 1);
+}
+
+.poem{
+    background: rgba(39, 76, 87, 1);
+    border: 10px solid lightblue;
+    width: 30%;
+    color: rgba(250, 165, 95, 1);
+    padding: 5px 5px 5px 5px;
+}
+
+#content li{
+    list-style: none;
+}
+
+.poem li::first-letter{
+    font-size: 110%;
+    color: rgba(252, 199, 155, 1);
+}
+
+#content .bio-photo img{
+    align-content: center;
+    width: 70%;
+}
+
+#content h2{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#content h2:first-child{
+    text-align: center;
+    font-family: Arial;
+}
+
+#content p{
+    text-indent: 20px;
+}
+
+#selected_works{
+    margin-left: 5%;
+}
+
+#selected_works td{
+    text-align: center;
+}
+
+.bottom-nav li{
+    display: inline;
+}
+
+.smalltext{
+    color: rgba(52, 39, 39, 1);
+    margin-left: 30px;
+    font-weight: lighter;
+    font-size: 0.85em;
+}
