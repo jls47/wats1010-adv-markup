@@ -68,7 +68,7 @@ h1{
 
 .bio-photo{
     float: left;
-/*     width: 15%; */
+    width: 15%;
     border: 10px solid lightgray;
     border-radius: 10px;
     margin-right: 10px;
