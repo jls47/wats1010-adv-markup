@@ -9,15 +9,12 @@ h1{
     margin-left: 30px;
 }
 
-header{
-  background: rgba(207, 179, 179, 1);
-  border: 5px solid rgba(207, 179, 179, 1);
-  border-radius: 3px;
+.top-nav{
+    background: lightgray;
 }
 
 .top-nav li{
     display: inline;
-/*   border: 1px solid goldenrod; */
 }
 
 #sidebar{
