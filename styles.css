@@ -11,10 +11,17 @@ h1{
 
 .top-nav{
     background: rgba(244, 244, 244, 1);
+    width: 300px;
+    border: 5px dashed rgba(244, 244, 244, 1);
+    border-radius: 10px;
 }
 
 .top-nav li{
     display: inline;
+}
+
+.top-nav li :hover{
+    color: red;
 }
 
 #sidebar{
@@ -70,8 +77,9 @@ h1{
 }
 
 .poem{
-    background: rgba(39, 76, 87, 1);
-    border: 10px solid rgba(39, 78, 89, 1);
+    background-image: url("http://ak.picdn.net/shutterstock/videos/652783/thumb/1.jpg");
+    background-size: 600px 300px;
+    border: 10px solid rgba(244, 244, 244, 1);
     border-radius: 2px;
     width: 30%;
     color: rgba(250, 165, 95, 1);
@@ -115,17 +123,18 @@ h1{
 }
 
 .bottom-nav{
-    font-style: sans-serif;
-    list-style: bullets;
     background: rgba(244, 244, 244, 1);
+    width: 300px;
+    border: 5px dashed rgba(244, 244, 244, 1);
+    border-radius: 10px;
 }
 
 .bottom-nav li{
     display: inline;
 }
 
-.bottom-nav url{
-    font-style: sans-serif;
+.bottom-nav li :hover{
+    color: red;
 }
 
 .smalltext{
