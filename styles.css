@@ -2,7 +2,6 @@
 
 html{
     background: rgba(234, 234, 235, 1);
-
 }
 
 h1{
@@ -12,6 +11,8 @@ h1{
 
 header{
   background: rgba(207, 179, 179, 1);
+  border: 5px solid rgba(207, 179, 179, 1);
+  border-radius: 3px;
 }
 
 .top-nav li{
@@ -37,6 +38,30 @@ header{
     font-weight: bold;
 }
 
+.twitter img{
+    height: 30px;
+    width: 30px;
+}
+
+.facebook img{
+    height: 30px;
+    width: 30px;
+}
+
+.pinterest img{
+    height: 30px;
+    width: 30px;
+}
+
+#sidebar li{
+    float: left;
+    list-style: none;
+}
+
+#sidebar h2{
+    margin-left: 30px;
+}
+
 .bio-photo{
     float: left;
     width: 15%;
@@ -49,7 +74,8 @@ header{
 
 .poem{
     background: rgba(39, 76, 87, 1);
-    border: 10px solid lightblue;
+    border: 10px solid rgba(39, 78, 89, 1);
+    border-radius: 2px;
     width: 30%;
     color: rgba(250, 165, 95, 1);
     padding: 5px 5px 5px 5px;
@@ -91,8 +117,21 @@ header{
     text-align: center;
 }
 
+.bottom-nav{
+    font-style: sans-serif;
+    list-style: bullets;
+    border: 3px solid rgba(151, 150, 221, 1);
+    width: 300px;
+    border-radius: 5px;
+    background: rgba(151, 150, 221, 1);
+}
+
 .bottom-nav li{
     display: inline;
+}
+
+.bottom-nav url{
+    font-style: sans-serif;
 }
 
 .smalltext{
