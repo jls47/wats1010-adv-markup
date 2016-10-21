@@ -10,7 +10,7 @@ h1{
 }
 
 .top-nav{
-    background: lightgray;
+    background: rgba(244, 244, 244, 1);
 }
 
 .top-nav li{
@@ -117,10 +117,7 @@ h1{
 .bottom-nav{
     font-style: sans-serif;
     list-style: bullets;
-    border: 3px solid rgba(151, 150, 221, 1);
-    width: 300px;
-    border-radius: 5px;
-    background: rgba(151, 150, 221, 1);
+    background: rgba(244, 244, 244, 1);
 }
 
 .bottom-nav li{
